@@ -17,7 +17,7 @@ div{
 div ul{
     display: flex;
     list-style-type: none;
-    border-bottom: 7px solid black;
+    border-bottom: 7px solid rgba(228, 23, 23, 0.822);
 
 }
 div ul li{
@@ -27,6 +27,7 @@ div ul li{
     margin: 0 10px;
     border-radius: 50px;
     animation: bouncy 1s linear infinite;
+
 }
 @keyframes bouncy{
     0%{
@@ -54,14 +55,38 @@ ul li:nth-child(3){
 }
 ul li:nth-child(4){
     animation-delay: 0.5s;
-    background-color: rgb(248, 37, 37);
+    background-color: rgb(233, 229, 19);
 }
 ul li:nth-child(5){
     animation-delay: 0.6s;
-    background-color: rgb(207, 218, 55);
+    background-color: rgb(58, 219, 26);
 }
 ul li:nth-child(6){
     animation-delay: 0.7s;
+    background-color: rgb(38, 215, 221);
+}
+ul li:nth-child(7){
+    animation-delay: 0.8s;
+    background-color: rgb(25, 0, 252);
+}
+ul li:nth-child(8){
+    animation-delay: 0.9s;
+    background-color: rgb(206, 55, 236);
+}
+ul li:nth-child(9){
+    animation-delay: 0.10s;
+    background-color: rgb(83, 51, 226);
+}
+ul li:nth-child(10){
+    animation-delay: 0.11s;
+    background-color: rgb(233, 229, 19);
+}
+ul li:nth-child(11){
+    animation-delay: 0.12s;
+    background-color: rgb(58, 219, 26);
+}
+ul li:nth-child(12){
+    animation-delay: 0.13s;
     background-color: rgb(38, 215, 221);
 }
 
